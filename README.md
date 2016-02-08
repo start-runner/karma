@@ -18,11 +18,11 @@ npm i -D start-karma
 
 ```js
 import start from 'start';
-import logger from 'start-simple-logger';
+import reporter from 'start-pretty-reporter';
 import karma from 'start-karma';
 
 export function test() {
-    return start(logger())
+    return start(reporter())
         karma(require('karma.conf'))
     );
 }
