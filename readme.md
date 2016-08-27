@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/karma.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/karma)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/karma.svg?style=flat-square)](https://codecov.io/github/start-runner/karma)
 [![deps](https://img.shields.io/gemnasium/start-runner/karma.svg?style=flat-square)](https://gemnasium.com/start-runner/karma)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 [Karma](https://karma-runner.github.io/) task for [Start](https://github.com/start-runner/start).
 
