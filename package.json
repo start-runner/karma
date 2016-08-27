@@ -1,6 +1,6 @@
 {
   "name": "start-karma",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Karma task for Start",
   "keywords": [ "start", "start-task", "karma" ],
   "homepage": "https://github.com/start-runner/karma",
