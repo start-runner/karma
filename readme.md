@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -D start-karma
+```sh
+npm install --save-dev start-karma
+# or
+yarn add --dev start-karma
 ```
 
 ## Usage
@@ -21,11 +23,9 @@ import start from 'start';
 import reporter from 'start-pretty-reporter';
 import karma from 'start-karma';
 
-export function test() {
-    return start(reporter())
-        karma(require('karma.conf'))
-    );
-}
+export const test = () => start(reporter())
+  karma(require('karma.conf'))
+);
 ```
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
